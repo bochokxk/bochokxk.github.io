@@ -1,0 +1,162 @@
+.vission_mission {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 50px auto;
+    gap: 0px; 
+    position: relative;
+}
+
+.text_block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    padding-left: 50px;
+    margin-right: 20px; 
+}
+
+.vission_mission h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #163b3d;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    margin-bottom: 10px; 
+}
+
+.vission_mission h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    max-width: 500px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    padding-left: 200px;
+}
+
+.vission_mission img {
+    max-width: 40%;
+    height: auto;
+    margin-left: 10px; 
+    margin-right: 100px; 
+}
+
+
+.mission_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 50px auto;
+    gap: 0px; 
+}
+
+.mission_section img {
+    max-width: 40%;
+    height: auto;
+    margin-left: 100px; 
+    margin-right: 10px; 
+}
+
+.mission_text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px; 
+}
+
+.mission_text h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #163b3d;
+    margin-bottom: 10px; 
+}
+
+.mission_text h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    max-width: 500px;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+/* Основні стилі  */
+.main_activities {
+    text-align: center;
+    margin: 0px auto;
+    max-width: 100%;
+    height: 600px;
+    background-color: #ededed;
+}
+
+/* Заголовок секції */
+.main_activities h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #163b3d;
+    margin-bottom: 10px;
+    background-color: #ededed;
+}
+
+/* Зірочки під заголовком */
+.main_activities .stars {
+    font-size: 24px;
+    color: green;
+    margin-bottom: 30px;
+    background-color: #ededed;
+}
+
+/* Контейнер для блоків з інформацією */
+.activities_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #ededed;
+}
+
+/* Оформлення кожного блоку */
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32%; 
+    text-align: center;
+    background-color: #ededed;
+}
+
+/* Стилізація зображень */
+.activity img {
+    width: 100%; 
+    height: 250px;
+    max-width: 250px; 
+    margin-bottom: 15px;
+    background-color: #ededed;
+}
+
+/* Стилізація заголовків блоків */
+.activity p {
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+    margin: 10px 0;
+    background-color: #ededed;
+}
+
+/* Стилізація описового тексту */
+.activity span {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    max-width: 250px;
+    line-height: 1.5;
+    background-color: #ededed;
+}
