@@ -1,0 +1,175 @@
+/* Основной фон страницы */
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 100%; 
+}
+
+/* Фон */
+.bg {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    height: 400px;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Шапка */
+header {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0; 
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    padding: 0 20px; 
+}
+
+
+
+/* Логотип */
+header img {
+    width: 125px;
+    height: 65px;
+    position: absolute;
+    top: 20px; 
+    left: 300px;
+}
+
+/* Поиск */
+.search_wrapper {
+    position: absolute;
+    top: 10px;
+    right: 5vw; /* Отступ справа будет зависеть от ширины экрана */
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.search_input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    color: #333;
+    font-size: 14px;
+    border-radius: 0;
+}
+
+.search_input::placeholder {
+    color: #aaa;
+}
+
+/* Текст по центру */
+.header_text {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: #6c4f2e; 
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Кнопка */
+.read_more_btn {
+    display: block;
+    margin: 250px auto 20px auto;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #28a745; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.read_more_btn:hover {
+    background-color: #218838; 
+}
+
+/* Меню */
+.menu_wrapper {
+    display: flex;
+    justify-content: flex-end; /* Выравниваем элементы по правому краю */
+    align-items: center;
+    gap: 15px;
+
+    position: absolute;
+    right: 5vw; /* Отступ справа будет зависеть от ширины экрана */
+    top: 75px;
+}
+
+.menu_wrapper a {
+    font-size: 11px;
+    text-decoration: none;
+    color: #163b3d;
+}
+
+.Products{
+    display: flex;
+    justify-content: center; /* Центрируем элементы горизонтально */
+    align-items: center; /* Центрируем элементы вертикально */
+    flex-wrap: wrap; /* Чтобы не выходило за границы */
+    position: center;
+    padding: 115px 0px;
+    margin-top: 50px; 
+    background-color: #f3efef;
+    border-radius: 10px;  
+    height: 200px;
+}
+
+.Products img {
+    position: center;
+    margin-right: 15px;
+    object-fit: cover; /* Сохраняет пропорции и обрезает лишнее */
+    width: auto;  /* Устанавливаем фиксированную ширину */
+    height: 80px;  /* Высота будет автоматически подстраиваться */
+    margin-left: 50px;
+}
+
+.bg_tomato_all{
+    background-image: url("../images/bgtomatoall.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    height: 400px;
+    
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: -1;
+}
+
+.header_tomato_all {
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0; 
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    padding: 0 20px; 
+}

@@ -1,0 +1,341 @@
+.vission_mission {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 50px auto;
+    gap: 0px; 
+    position: relative;
+}
+
+.text_block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    padding-left: 50px;
+    margin-right: 20px; 
+}
+
+.vission_mission h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #163b3d;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    margin-bottom: 10px; 
+}
+
+.vission_mission h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    max-width: 500px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    padding-left: 200px;
+}
+
+.vission_mission img {
+    max-width: 40%;
+    height: auto;
+    margin-left: 10px; 
+    margin-right: 100px; 
+}
+
+
+.mission_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 50px auto;
+    gap: 0px; 
+}
+
+.mission_section img {
+    max-width: 40%;
+    height: auto;
+    margin-left: 100px; 
+    margin-right: 10px; 
+}
+
+.mission_text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px; 
+}
+
+.mission_text h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #163b3d;
+    margin-bottom: 10px; 
+}
+
+.mission_text h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    max-width: 500px;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+/* Основні стилі  */
+.main_activities {
+    text-align: center;
+    margin: 0px auto;
+    max-width: 100%;
+    height: 600px;
+    background-color: #ededed;
+}
+
+/* Заголовок секції */
+.main_activities h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #163b3d;
+    margin-bottom: 10px;
+    background-color: #ededed;
+}
+
+/* Зірочки під заголовком */
+.main_activities .stars {
+    font-size: 24px;
+    color: green;
+    margin-bottom: 30px;
+    background-color: #ededed;
+}
+
+/* Контейнер для блоків з інформацією */
+.activities_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #ededed;
+}
+
+/* Оформлення кожного блоку */
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32%; 
+    text-align: center;
+    background-color: #ededed;
+}
+
+/* Стилізація зображень */
+.activity img {
+    width: 100%; 
+    height: 250px;
+    max-width: 250px; 
+    margin-bottom: 15px;
+    background-color: #ededed;
+}
+
+/* Стилізація заголовків блоків */
+.activity p {
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+    margin: 10px 0;
+    background-color: #ededed;
+}
+
+/* Стилізація описового тексту */
+.activity span {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    max-width: 250px;
+    line-height: 1.5;
+    background-color: #ededed;
+}
+
+/* Контейнер с общими стилями */
+.tomato_all_content{
+    background-color: #ece2e2;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center; /* Центрируем элементы горизонтально */
+    align-items: center;
+
+}
+
+.tomato_all_content h2{
+    display: flex;
+    font-size: 35px;
+    font-weight: bold;
+    color: #163b3d;
+
+    top: 75px;
+    left: 300px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative; /* Для возможности сдвига */
+    left: -175px; /* Сдвигаем элемент влево на 20px */
+}
+
+.tomato_all_content h3{
+    display: flex;
+    top: 100px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    max-width: 1000px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tomato_all_content h4 {
+    display: flex;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    max-width: 850px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-left: 5px solid rgb(134, 27, 0); /* Зеленая левая смуга */
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    left: -75px; /* Сдвигаем элемент влево на 20px */
+}
+
+
+.info_wrapper_tomatoall {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1000px; /* Увеличил ширину контейнера */
+    margin: 15px auto;
+    background-color: #ededed;
+    padding-left: 15px; /* Збільши ли відступ зліва */
+}
+
+
+.wrapper_tomatoall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28%; /* Зменшили ширину блоків */
+    text-align: start;
+    background-color: #ededed;
+
+}
+
+.wrapper_tomatoall p {
+    font-size: 19px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;  /* Отступы сверху и снизу */
+    background-color: #ededed;
+    line-height: 1.4;  /* Добавляем высоту строки для равномерного отступа */
+    margin-left: 20px;
+}
+
+.wrapper_tomatoall span {
+    font-size: 14px;
+    color: #333;
+    display: inline-block;  /* Изменим с 'inline' на 'inline-block', чтобы можно было контролировать отступы */
+    max-width: 230px;
+    line-height: 1.4;  /* Устанавливаем такую же высоту строки */
+    margin: 10px 0;  /* Добавляем отступы сверху и снизу */
+    background-color: #ededed;
+}
+
+
+.h5{
+    background-color: #ece2e2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+
+
+}
+
+.h5 h5 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    max-width: 850px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-left: 5px solid rgb(194, 79, 50); /* Зеленая левая смуга */
+    position: relative;
+    left: -240px; /* Сдвигаем элемент влево на 20px */
+}
+
+
+.tomatoall_product {
+    display: flex;
+    flex-direction: column; /* Располагаем секцию по вертикали */
+    gap: 20px;
+    width: 100%;
+    background-color: #ece2e2;
+    padding-left: 250px; /* Небольшой отступ слева */
+    padding-right: 200px; /* Большой отступ справа */
+    padding-bottom: 40px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Три равные колонки */
+    gap: 20px; /* Расстояние между элементами */
+    background-color: #ece2e2;
+    margin: 0 auto;
+    max-width: 850px;
+    
+}
+
+.wrapper_product {
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.wrapper_product:nth-child(3n) { /* Убираем margin-right у каждого третьего элемента */
+    margin-right: 0;
+}
+
+.wrapper_product img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: none;
+}
+
+.wrapper_product p {
+    font-size: 11px;
+    font-weight: bold;
+    color: #3da539;
+    margin-bottom: 0px;
+}
+
+.wrapper_product span {
+    font-size: 12px;
+    color: #3da539;
+    margin-top: 5px; /* Добавляем немного отступа сверху */
+    line-height: 1.5; /* Увеличиваем межстрочный интервал для улучшения читаемости */
+}
