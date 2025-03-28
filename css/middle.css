@@ -326,6 +326,8 @@
     border: none;
 }
 
+
+
 .wrapper_product p {
     font-size: 11px;
     font-weight: bold;
@@ -338,4 +340,269 @@
     color: #3da539;
     margin-top: 5px; /* Добавляем немного отступа сверху */
     line-height: 1.5; /* Увеличиваем межстрочный интервал для улучшения читаемости */
+}
+
+.wrapper_product .image-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%; /* Ограничиваем высоту ссылки верхней половиной изображения */
+}
+
+
+.wrapper_product a {
+ /* Убираем подчеркивание */
+    color: inherit; /* Наследуем цвет от родительских элементов */
+}
+/* === Общие стили === */
+/* === Основной контейнер === */
+/* === Основной контейнер === */
+/* === Контейнер всей страницы === */
+/* === Контейнер всей страницы === */
+/* === Основная секция === */
+/* === Основной контейнер первой секции === */
+.tomaro_one_content {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+/* === Внутренний контейнер === */
+.main-container {
+    display: flex;
+    width: 100%;
+    max-width: 960px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* === Кнопка возврата === */
+.back {
+    margin-bottom: 20px;
+}
+
+.back a {
+    color: #57984C;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.back img {
+    width: 20px;
+    height: 10px;
+    vertical-align: middle;
+}
+
+/* === Информация о томате === */
+.tomato-info {
+    flex-grow: 1;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tomaro_one_info {
+    margin-bottom: auto;
+}
+
+.tomaro_one_info h2 {
+    font-size: 34px;
+    font-weight: bold;
+    color: #163b3d;
+    margin-bottom: 10px;
+}
+
+.tomaro_one_info h2 .black {
+    color: black;
+}
+
+.tomaro_one_info h2 .green {
+    color: #57984C;
+}
+
+.star {
+    font-size: 20px;
+    color: #57984C;
+}
+
+/* === Качество томатов === */
+.quality {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.quality img {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+}
+
+.quality h2 {
+    font-size: 22px;
+    color: #CF2333;
+}
+
+/* === Изображение томатов === */
+.tomatiki {
+    max-width: 450px;
+}
+
+.tomatiki img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+/* === Контейнер характеристик (первая часть) === */
+.characteristics-container {
+    margin-top: 30px;
+}
+
+.characteristics h3 {
+    font-size: 18px;
+    color: #57984C;
+    margin-bottom: 5px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.characteristics h3::after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 1px;
+    background-color: #57984C;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* === Контейнер для характеристик (вторая секция) === */
+.characteristics-details {
+    width: 100%;
+    background-color: #E5E5E5;
+    padding: 0 20px;
+    margin-top: -30px;
+}
+
+/* === Стили для заголовков характеристик (Plant, Fruit, Cycle, Color) === */
+.characteristics-section p.label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #57984C;
+    position: relative;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* === Добавляем зелёную полосу под каждым label === */
+.characteristics-section p.label::after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 1px;
+    background-color: #57984C;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* === Сетка характеристик (две группы) === */
+.characteristics-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* Два столбца */
+.left-column,
+.right-column {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* === Стили для секций характеристик === */
+.characteristics-section {
+    margin-top: 15px;
+}
+
+.characteristics-section p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.characteristics-section ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.characteristics-section ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* "Color" без маркеров */
+.characteristics-section.color ul li {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+/* === Кнопка "Download PDF" === */
+.download-pdf {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 2px solid #57984C;
+    border-radius: 20px;
+    padding: 10px 18px;
+    background-color: transparent;
+    text-align: center;
+    width: fit-content;
+    position: relative;
+    right: -300px;
+    top: -330px;
+    transition: all 0.3s ease;
+}
+
+/* === Стили для изображения внутри кнопки === */
+.download-pdf img {
+    width: 20px;
+    height: 20px;
+}
+
+/* === Стили для текста кнопки === */
+.download-pdf a {
+    color: #57984C;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* === Эффект при наведении === */
+.download-pdf:hover {
+    background-color: #57984C;
+}
+
+.download-pdf:hover a {
+    color: white;
 }
