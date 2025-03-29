@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приклад веб-сторінки</title>
+
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link  rel="stylesheet" href="css/header.css">
+    <link  rel="stylesheet" href="css/style.css">
+    <link  rel="stylesheet" href="css/middle.css">
+    <link  rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    
+    <header class="header_tomato_all">
+        <img src="images/Logo.png" alt="Логотип">
+        
+        <!-- Поиск -->
+        <div class="search_wrapper">
+            <input type="text" class="search_input" placeholder="Search...">
+        </div>
+
+
+        <div class="menu_wrapper">
+            <a href="index.html">Home</a>
+            <a href="#">Company Profile</a>
+            <a href="Tomato all.html">Products</a>
+            <a href="#">Services</a>
+            <a href="#">R & D</a>
+            <a href="contact us.html">Contact</a>
+        </div>
+        
+        <div class="bg_contact_us"></div>
+    
+    </header>
+    <section class="contact_us">
+        <h2>Contact us</h2>
+        <span class="star">*****</span>
+        <form class="contact_form">
+            <div class="left_column">
+                <div class="form_row">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form_row">
+                    <label for="company_name">Company Name</label>
+                    <input type="text" id="company_name" name="company_name">
+                </div>
+                <div class="form_row">
+                    <label for="position">Position</label>
+                    <input type="text" id="position" name="position">
+                </div>
+                <div class="form_row">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city">
+                </div>
+                <div class="form_row">
+                    <label for="country">Country</label>
+                    <input type="text" id="country" name="country">
+                </div>
+                <div class="form_row">
+                    <label for="telephone">Telephone</label>
+                    <input type="tel" id="telephone" name="telephone">
+                </div>
+                <div class="form_row">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+            <div class="right_column">
+                <div class="form_row">
+                    <label for="you_are">You are a</label>
+                    <select id="you_are" name="you_are">
+                        <option value="seed_producer">seed producer</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form_row">
+                    <label for="if_other">If other, please specify</label>
+                    <input type="text" id="if_other" name="if_other">
+                </div>
+                <div class="form_row">
+                    <label for="you_are_interested">You are interested in</label>
+                    <textarea id="you_are_interested" name="you_are_interested"></textarea>
+                </div>
+                <div class="form_row captcha_row">
+                    <label for="captcha">Please type this code</label>
+                    <div class="captcha_container">
+                        <img src="images/capcha.png" alt="">
+                        <input type="text" id="captcha" name="captcha" required>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="send_message">Send Message</button>
+        </form>
+    </section>
+    <section class="our_address">
+        <div class="address_content">
+            <h2>Our Address</h2>
+            <div class="address_line"></div>
+            <p>AGRIDERA Seeds & Agriculture Ltd.</p>
+            <p>PO Box 103,</p>
+            <p>Gedera 70750, Israel.</p>
+            <p>Telephone: <span class="phone_number">+972 8 944 9222</span></p>
+        </div>
+    </section>
+    <footer>
+        <div class="top">
+            <div class="a_wrapper">
+                <a href="#">PROFILE</a>
+                <a href="#">MANAGEMENT</a>
+                <a href="#">PRODUCTS</a>
+                <a href="#">R & D</a>
+                <a href="#">LINKS</a>
+                <a href="#">SITEMAP</a>
+                <a href="#">CONTACT</a>
+            </div>
+            <div class="src_wrapper">
+                <img src="images/footer1.png" alt="">
+                <img src="images/footer2.png" alt="">
+                <img src="images/footer3.png" alt="">
+                <img src="images/footer4.png" alt="">
+                <img src="images/footer5.png" alt="">
+            </div>
+        </div>
+        <div class="bottom"></div>
+        <p>AGRIDERA SEEDS & AGRICULTURE LTD. © 2020</p>
+    </footer>
+     
+
+</body>
+</html>
+    

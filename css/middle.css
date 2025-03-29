@@ -167,7 +167,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    justify-content: center; /* Центрируем элементы горизонтально */
+    justify-content: center; 
     align-items: center;
 
 }
@@ -183,8 +183,8 @@
     margin-bottom: 10px;
     justify-content: space-between;
     align-items: flex-start;
-    position: relative; /* Для возможности сдвига */
-    left: -175px; /* Сдвигаем элемент влево на 20px */
+    position: relative;
+    left: -175px;
 }
 
 .tomato_all_content h3{
@@ -212,11 +212,11 @@
     word-wrap: break-word;
     padding-left: 10px;
     margin-top: 10px;
-    border-left: 5px solid rgb(134, 27, 0); /* Зеленая левая смуга */
+    border-left: 5px solid rgb(134, 27, 0); 
     justify-content: space-between;
     align-items: flex-start;
     position: relative;
-    left: -75px; /* Сдвигаем элемент влево на 20px */
+    left: -75px; 
 }
 
 
@@ -225,10 +225,10 @@
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
-    max-width: 1000px; /* Увеличил ширину контейнера */
+    max-width: 1000px; 
     margin: 15px auto;
     background-color: #ededed;
-    padding-left: 15px; /* Збільши ли відступ зліва */
+    padding-left: 15px; 
 }
 
 
@@ -236,7 +236,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 28%; /* Зменшили ширину блоків */
+    width: 28%; 
     text-align: start;
     background-color: #ededed;
 
@@ -246,19 +246,18 @@
     font-size: 19px;
     font-weight: bold;
     color: #333;
-    margin: 10px 0;  /* Отступы сверху и снизу */
+    margin: 10px 0; 
     background-color: #ededed;
-    line-height: 1.4;  /* Добавляем высоту строки для равномерного отступа */
+    line-height: 1.4; 
     margin-left: 20px;
 }
 
 .wrapper_tomatoall span {
     font-size: 14px;
     color: #333;
-    display: inline-block;  /* Изменим с 'inline' на 'inline-block', чтобы можно было контролировать отступы */
-    max-width: 230px;
-    line-height: 1.4;  /* Устанавливаем такую же высоту строки */
-    margin: 10px 0;  /* Добавляем отступы сверху и снизу */
+    display: inline-block; 
+    line-height: 1.4;  
+    margin: 10px 0;  
     background-color: #ededed;
 }
 
@@ -282,27 +281,27 @@
     word-wrap: break-word;
     padding-left: 10px;
     margin-top: 10px;
-    border-left: 5px solid rgb(194, 79, 50); /* Зеленая левая смуга */
+    border-left: 5px solid rgb(194, 79, 50); 
     position: relative;
-    left: -240px; /* Сдвигаем элемент влево на 20px */
+    left: -240px; 
 }
 
 
 .tomatoall_product {
     display: flex;
-    flex-direction: column; /* Располагаем секцию по вертикали */
+    flex-direction: column; 
     gap: 20px;
     width: 100%;
     background-color: #ece2e2;
-    padding-left: 250px; /* Небольшой отступ слева */
-    padding-right: 200px; /* Большой отступ справа */
+    padding-left: 250px; 
+    padding-right: 200px; 
     padding-bottom: 40px;
 }
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Три равные колонки */
-    gap: 20px; /* Расстояние между элементами */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
     background-color: #ece2e2;
     margin: 0 auto;
     max-width: 850px;
@@ -315,7 +314,7 @@
     box-sizing: border-box;
 }
 
-.wrapper_product:nth-child(3n) { /* Убираем margin-right у каждого третьего элемента */
+.wrapper_product:nth-child(3n) { 
     margin-right: 0;
 }
 
@@ -338,8 +337,8 @@
 .wrapper_product span {
     font-size: 12px;
     color: #3da539;
-    margin-top: 5px; /* Добавляем немного отступа сверху */
-    line-height: 1.5; /* Увеличиваем межстрочный интервал для улучшения читаемости */
+    margin-top: 5px; 
+    line-height: 1.5; 
 }
 
 .wrapper_product .image-link {
@@ -348,21 +347,15 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 50%; /* Ограничиваем высоту ссылки верхней половиной изображения */
+    height: 50%; 
 }
 
 
 .wrapper_product a {
- /* Убираем подчеркивание */
-    color: inherit; /* Наследуем цвет от родительских элементов */
+
+    color: inherit; 
 }
-/* === Общие стили === */
-/* === Основной контейнер === */
-/* === Основной контейнер === */
-/* === Контейнер всей страницы === */
-/* === Контейнер всей страницы === */
-/* === Основная секция === */
-/* === Основной контейнер первой секции === */
+
 .tomaro_one_content {
     display: flex;
     flex-direction: column;
@@ -373,7 +366,7 @@
     align-items: center;
 }
 
-/* === Внутренний контейнер === */
+/* Внутренний контейнер*/
 .main-container {
     display: flex;
     width: 100%;
@@ -382,7 +375,7 @@
     align-items: flex-start;
 }
 
-/* === Кнопка возврата === */
+/*  Кнопка возврата*/
 .back {
     margin-bottom: 20px;
 }
@@ -401,7 +394,7 @@
     vertical-align: middle;
 }
 
-/* === Информация о томате === */
+/* Информация о томате  */
 .tomato-info {
     flex-grow: 1;
     margin-right: 20px;
@@ -436,7 +429,7 @@
     color: #57984C;
 }
 
-/* === Качество томатов === */
+/*  Качество томатов */
 .quality {
     display: flex;
     align-items: center;
@@ -455,7 +448,7 @@
     color: #CF2333;
 }
 
-/* === Изображение томатов === */
+/* Изображение томатов  */
 .tomatiki {
     max-width: 450px;
 }
@@ -468,7 +461,7 @@
     margin-right: 30px;
 }
 
-/* === Контейнер характеристик (первая часть) === */
+/* Контейнер характеристик */
 .characteristics-container {
     margin-top: 30px;
 }
@@ -492,7 +485,7 @@
     left: 0;
 }
 
-/* === Контейнер для характеристик (вторая секция) === */
+/* Контейнер для характеристик */
 .characteristics-details {
     width: 100%;
     background-color: #E5E5E5;
@@ -500,7 +493,7 @@
     margin-top: -30px;
 }
 
-/* === Стили для заголовков характеристик (Plant, Fruit, Cycle, Color) === */
+/*  Стили для заголовков характеристик  */
 .characteristics-section p.label {
     font-weight: bold;
     font-size: 18px;
@@ -510,7 +503,7 @@
     margin-bottom: 10px;
 }
 
-/* === Добавляем зелёную полосу под каждым label === */
+
 .characteristics-section p.label::after {
     content: "";
     display: block;
@@ -522,7 +515,7 @@
     left: 0;
 }
 
-/* === Сетка характеристик (две группы) === */
+/*  Сетка характеристик  */
 .characteristics-columns {
     display: flex;
     justify-content: space-between;
@@ -540,7 +533,7 @@
     gap: 15px;
 }
 
-/* === Стили для секций характеристик === */
+/* Стили для секций характеристик  */
 .characteristics-section {
     margin-top: 15px;
 }
@@ -567,7 +560,7 @@
     margin-left: 0;
 }
 
-/* === Кнопка "Download PDF" === */
+/*  Кнопка "Download PDF*/
 .download-pdf {
     display: flex;
     align-items: center;
@@ -584,13 +577,13 @@
     transition: all 0.3s ease;
 }
 
-/* === Стили для изображения внутри кнопки === */
+/* Стили для изображения внутри кнопки */
 .download-pdf img {
     width: 20px;
     height: 20px;
 }
 
-/* === Стили для текста кнопки === */
+/* Стили для текста кнопки */
 .download-pdf a {
     color: #57984C;
     text-decoration: none;
@@ -598,11 +591,142 @@
     font-weight: bold;
 }
 
-/* === Эффект при наведении === */
+/*  Эффект при наведении */
 .download-pdf:hover {
     background-color: #57984C;
 }
 
 .download-pdf:hover a {
     color: white;
+}
+
+.contact_us {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px 50px;
+    background-color: #f7f7f7;
+
+
+}
+
+.contact_us h2 {
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 10px;
+    margin-left: 140px;
+    margin-top: 70px;
+}
+
+.contact_us span {
+    margin-left: 140px;
+    font-size: 16px;
+}
+
+.contact_form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+    padding-left: 70px;
+}
+
+.left_column,
+.right_column {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.left_column input,
+.left_column select,
+.left_column textarea {
+    max-width: 300px;
+}
+
+.right_column input,
+.right_column select,
+.right_column textarea {
+    width: 150%;
+}
+
+.right_column textarea {
+    height: 320px;
+}
+
+.captcha_container {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+.captcha_code {
+    font-weight: bold;
+}
+
+.captcha_row {
+    margin-bottom: 20px;
+}
+
+.send_message {
+    background-color: #57984C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 570px;
+    height: 40px; 
+}
+
+.our_address {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.address_content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.our_address h2 {
+    color: #57984C;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.address_line {
+    width: 200px;
+    height: 2px;
+    background-color: #57984C;
+    margin: 10px auto 20px;
+}
+
+.our_address p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.phone_number { 
+    color: #57984C;
+
 }

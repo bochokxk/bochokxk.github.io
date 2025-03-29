@@ -5,6 +5,7 @@ body {
     margin: 0;
     position: relative;
     height: 100%; 
+    font-family: 'Roboto Slab';
 }
 
 /* Фон */
@@ -54,7 +55,7 @@ header img {
 .search_wrapper {
     position: absolute;
     top: 10px;
-    right: 5vw; /* Отступ справа будет зависеть от ширины экрана */
+    right: 5vw; 
     width: 200px;
     height: 30px;
     display: flex;
@@ -107,12 +108,12 @@ header img {
 /* Меню */
 .menu_wrapper {
     display: flex;
-    justify-content: flex-end; /* Выравниваем элементы по правому краю */
+    justify-content: flex-end; 
     align-items: center;
     gap: 15px;
 
     position: absolute;
-    right: 5vw; /* Отступ справа будет зависеть от ширины экрана */
+    right: 5vw; 
     top: 75px;
 }
 
@@ -124,9 +125,9 @@ header img {
 
 .Products{
     display: flex;
-    justify-content: center; /* Центрируем элементы горизонтально */
-    align-items: center; /* Центрируем элементы вертикально */
-    flex-wrap: wrap; /* Чтобы не выходило за границы */
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
     position: center;
     padding: 115px 0px;
     margin-top: 50px; 
@@ -138,9 +139,9 @@ header img {
 .Products img {
     position: center;
     margin-right: 15px;
-    object-fit: cover; /* Сохраняет пропорции и обрезает лишнее */
-    width: auto;  /* Устанавливаем фиксированную ширину */
-    height: 80px;  /* Высота будет автоматически подстраиваться */
+    object-fit: cover; 
+    width: auto;  
+    height: 80px;  
     margin-left: 50px;
 }
 
@@ -186,4 +187,19 @@ header img {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
     padding: 0 20px;
+}
+
+.bg_contact_us{
+    background-image: url("../images/bgcontactus.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    height: 400px;
+    
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: -1;
 }
