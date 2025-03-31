@@ -1,8 +1,12 @@
-/* Стилі для футера */
+
+
+/* Футер */
 footer {
-    background-color: #2D3F45; 
+    background-color: #2D3F45;
     padding: 20px 0;
-    text-align: center; 
+    text-align: center;
+    width: 100%;
+    position: relative;
 }
 
 /* Верхня частина футера */
@@ -12,12 +16,12 @@ footer .top {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 0 auto; 
-    padding: 0 150px; 
+    margin: 0 auto;
+    padding: 0 auto;
+
 }
 
 footer .top a {
-
     font-size: 14px;
     color: white;
     text-decoration: none;
@@ -25,18 +29,18 @@ footer .top a {
 }
 
 footer .top img {
-    width: 20px; 
+    width: 20px;
     height: auto;
-    margin-left: 20px; 
+    margin-left: 20px;
+
+
 }
 
 /* Нижня частина футера */
 footer .bottom {
     margin-top: 20px;
-
 }
 
-/* Текст внизу футера */
 footer p {
     margin-top: 20px;
     font-size: 14px;
