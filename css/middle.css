@@ -164,7 +164,7 @@
 
 .tomato_all_content {
     margin-top: 150px;
-    background-color: #ece2e2;
+    background-color: #ffdfdf;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -219,7 +219,7 @@
     gap: 20px;
     max-width: 1000px;
     margin: 15px auto;
-    background-color: #ededed;
+    background-color: #fff5f5;
     padding-left: 15px;
     flex-wrap: wrap;
 }
@@ -230,7 +230,7 @@
     align-items: flex-start;
     width: 30%;
     text-align: left;
-    background-color: #ededed;
+    background-color: #fff5f5;
     box-sizing: border-box;
 }
 
@@ -239,7 +239,7 @@
     font-weight: bold;
     color: #333;
     margin: 10px 0;
-    background-color: #ededed;
+    background-color: #fff5f5;
     line-height: 1.4;
     margin-left: 0;
 }
@@ -250,11 +250,11 @@
     display: inline-block;
     line-height: 1.4;
     margin: 10px 0;
-    background-color: #ededed;
+    background-color: #fff5f5;
 }
 
 .h5 {
-    background-color: #ece2e2;
+    background-color: #ffdfdf;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -281,7 +281,7 @@
     flex-direction: column;
     gap: 20px;
     width: 100%;
-    background-color: #ece2e2;
+    background-color: #ffdfdf;
     padding-left: 15%; 
     padding-right: 15%; 
     padding-bottom: 40px;
@@ -291,7 +291,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-    background-color: #ece2e2;
+    background-color: #ffdfdf;
     margin: 0 auto;
     max-width: 850px; 
 }
@@ -436,8 +436,8 @@
 }
 
 .tomatiki img {
-    width: 100%;
-    height: auto;
+    width: 350px;
+    max-height: 250px;
     object-fit: cover;
     border-radius: 5px;
     margin-right: 30px;
@@ -555,16 +555,13 @@
     text-align: center;
     width: fit-content;
     position: relative;
-    right: -300px;
-    top: -330px;
+    right: 0px;
+    top: -15px;
     transition: all 0.3s ease;
 }
 
 /* Стили для изображения внутри кнопки */
-.download-pdf img {
-    width: 20px;
-    height: 20px;
-}
+
 
 /* Стили для текста кнопки */
 .download-pdf a {

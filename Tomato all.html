@@ -14,6 +14,12 @@
     <link  rel="stylesheet" href="css/middle.css">
     <link  rel="stylesheet" href="css/footer.css">
     <link  rel="stylesheet" href="css/responsive.css">
+<!-- Спочатку Vue -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<!-- Потім твій main.js -->
+    <script src="js/main.js" defer></script>
+
+
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -49,92 +55,55 @@
     </header>
     <section class="tomato_all_content">
         <h2>
-            Agridera Fresh Market Tomato Hybrids
+            Гіркі перці
         </h2>
         <h3>
-            Agridera aims to be one of the world's leading companies in the breeding, production, and marketing of tomato seeds. We invest intensively in research and development to provide solutions to growers and consumers in numerous countries around the world.  
-            In particular, we breed improved disease-resistant cultivars adapted to different markets globally.  
+            Agridera прагне стати однією з провідних компаній у світі в селекції, виробництві та маркетингу насіння томатів. Ми інтенсивно інвестуємо в дослідження та розробки, щоб надати рішення для фермерів і споживачів у багатьох країнах світу.  
             <br><br>
-            Currently, emphasis is placed on combining Tomato Yellow Leaf Curl Virus (TYLCV) and Tomato Spotted Wilt Virus (TSWV) resistances with other soil-borne diseases into superior tomato breeding lines and hybrids. Moreover, comprehensive efforts are being undertaken to develop varieties resistant to TBRFV virus (Tomato Brown Rugose Fruit Virus).  
+            Зокрема, ми розводимо покращені сорти, стійкі до захворювань, адаптовані до різних ринків світу.  
             <br><br>
-            In terms of horticultural traits, breeding is for earliness, different fruit sizes, firmness, red fruit color, flavor, crack resistance, shelf life, and high/low temperature fruit set. Combinations of quality features and disease resistance are sought in a variety of types, namely round and elongated shapes.  
+            Наразі основна увага приділяється поєднанню стійкості до вірусу жовтого завороту листя томатів (TYLCV) і вірусу плямистої зів’ялості томатів (TSWV) з іншими ґрунтовими хворобами у вищі лінії та гібриди томатів. Крім того, ведеться активна робота над розробкою сортів, стійких до вірусу TBRFV (вірус коричневої зморшкуватої плоди томатів).  
+            <br><br>
+            У селекції томатів особлива увага приділяється ранньостиглості, різним розмірам плодів, міцності, червоному кольору плодів, смаковим якостям, стійкості до розтріскування, терміну зберігання та здатності до плодоношення при високих та низьких температурах. Ми шукаємо поєднання якості та стійкості до хвороб у різних типах, зокрема круглих і подовжених формах.  
         </h3>
         <h4>
-            Agirdera Tomato breeding programs are focusing on three main segments: Greenhouse Indeterminate Tomatoes, Open-field Indeterminate Tomatoes, and Bush Type Open-field Tomatoes.
+            Програми селекції томатів Agirdera зосереджені на трьох основних сегментах: тепличні детермінантні томати, відкритий ґрунт детермінантні томати та кущові томати відкритого ґрунту.
         </h4>
         <div class="info_wrapper_tomatoall">
             <div class="wrapper_tomatoall">
-                <p>Greenhouse Tomato Breeding Program</p>
-                <span><strong>This breeding is aimed for the Spanish and Turkish markets.</strong> For single and cluster picks, round fruit shape and resistances of TYLCV, TSWV, Nematodes and FORL (Fusarium oxysporum f.sp. radicis-lycopersici). Some hybrids may include more resistances, such as Cladosporium and Leveillula Taurica (Lv).</span>
+                <p>Програма селекції тепличних томатів</p>
+                <span><strong>Ця селекція орієнтована на ринки Іспанії та Туреччини.</strong> Для одиничного та кластерного збору, кругла форма плодів і стійкість до TYLCV, TSWV, нематод і FORL (Fusarium oxysporum f.sp. radicis-lycopersici). Деякі гібриди можуть включати додаткові стійкості, такі як Cladosporium і Leveillula Taurica (Lv).</span>
             </div>
             <div class="wrapper_tomatoall">
-                <p>Open-field Indeterminate Tomatoes</p>
-                <span><strong>This breeding is for Brazilian, Moroccan, and Turkish markets.</strong> The main focus is on large round shape fruits (200 grams plus); and resistances of TYLCV, TSWV, Nematodes and FORL. In the near future, F3 (Fusarium oxysporum f.sp. lycopersici) will be included as basic resistance in our cultivars.</span>
+                <p>Відкритий ґрунт, детермінантні томати</p>
+                <span><strong>Ця селекція орієнтована на ринки Бразилії, Марокко та Туреччини.</strong> Основний акцент зроблено на великі круглі плоди (понад 200 грамів); стійкість до TYLCV, TSWV, нематод і FORL. Незабаром в наші сорти буде включена стійкість до F3 (Fusarium oxysporum f.sp. lycopersici) як основна стійкість.</span>
             </div>
             <div class="wrapper_tomatoall">
-                <p>Open-field Bush Type Tomatoes</p>
-                <span><strong>This breeding is for Mediterranean markets.</strong> We breed round and elongated shapes, standard sizes (140- 180 grams), and beef sizes (min. 180 grams up to 300 grams and more). We combine the resistances of TYLCV, TSWV and Nematodes as basic resistances in our hybrids. However, some hybrids may include more resistances, such as Cladosporium and Leveillula Taurica (Lv).</span>
+                <p>Кущові томати відкритого ґрунту</p>
+                <span><strong>Ця селекція орієнтована на середземноморські ринки.</strong> Ми селекціонуємо круглі та подовжені форми, стандартні розміри (140-180 грамів), а також великі розміри (від 180 грамів до 300 грамів і більше). Ми поєднуємо стійкість до TYLCV, TSWV і нематод як основні стійкості в наших гібридах. Однак деякі гібриди можуть включати додаткові стійкості, такі як Cladosporium і Leveillula Taurica (Lv).</span>
             </div>
         </div>
         <div class="h5">
-            <h5>Agridera operates through international and local distributers around the world. </h5>
+            <h5>Agridera працює через міжнародних і місцевих дистриб’юторів по всьому світу.</h5>
         </div> 
-    </section> 
-    <section class="tomatoall_product">
+    </section>
+     
+    <section id="app" class="tomatoall_product">
         <div class="wrapper">
-            <div class="wrapper_product">
-                <img src="images/product1.png" alt="">
-                <p>TAG 1000 (TAG 853)</p>
-                <span>Tomato Determinate Red Standard Round</span>
-            </div>
-            <div class="wrapper_product">
-                <img src="images/product2.png" alt="">
-                <p>TAG 1001 (TAG 855)</p>
-                <span>Tomato Determinate Red Standard Round</span>
-            </div>
-            <div class="wrapper_product">
-                <a href="tomato one.html">
-                    <img src="images/product3.jpg" alt="">
+            <div class="wrapper_product" v-for="product in products" :key="product.id">
+                <a :href="'tomato one.html#' + product.id">
+                    <img :src="'images/' + product.image" :alt="product.title">
                 </a>
-                <a href="tomato one.html">    
-                <p>TAG 1002 (TAG 809)</p>
+                <a :href="'tomato one.html#' + product.id">
+                    <p>{{ product.title }}</p>
                 </a>
-                    <span>Tomato Determinate Red Standard Round</span>
-            </div>
-            
-        </div>
-    
-        <div class="wrapper">
-            <div class="wrapper_product">
-                <img src="images/product4.png" alt="">
-                <p>TAG 1003 (TAG 834)</p>
-                <span>Tomato Determinate Red Standard Round</span>
-            </div>
-            <div class="wrapper_product">
-                <img src="images/product5.png" alt="">
-                <p>TAG 1004 (TAG 848)</p>
-                <span>Tomato Determinate Red BEEF Round</span>
-            </div>
-            <div class="wrapper_product">
-                <img src="images/product6.png" alt="">
-                <p>TAG 1005 (TAG 800)</p>
-                <span>Tomato Determinate Red BEEF Round</span>
-            </div>
-        </div>
-    
-        <div class="wrapper">
-            <div class="wrapper_product">
-                <img src="images/product7.png" alt="">
-                <p>TAG 1006 (TAG 898)</p>
-                <span>Tomato Determinate Red Elongated</span>
-            </div>
-            <div class="wrapper_product">
-                <img src="images/product8.png" alt="">
-                <p>TAG 1007 (TAG 816)</p>
-                <span>Tomato Determinate Red Elongated</span>
+                <span>{{ product.short_text }}</span>
             </div>
         </div>
     </section>
+    
+    
+    
     <footer>
         <div class="top">
             <div class="a_wrapper">
