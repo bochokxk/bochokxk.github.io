@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ product.title }}</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/middle.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <div id="app">
+        <header class="tomato_one_header">
+            <div style="display: flex; justify-content: flex-end; width: 100%;">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuWrapperCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="menuWrapperCollapse">
+                            <div id="wrapper" class="menu_wrapper navbar-nav me-auto mb-2 mb-lg-0 bg-white">
+                                <a class="nav-link" href="index.html">Home</a>
+                                <a class="nav-link" href="#">Company Profile</a>
+                                <a class="nav-link" href="Tomato all.html">Products</a>
+                                <a class="nav-link" href="#">Services</a>
+                                <a class="nav-link" href="#">R & D</a>
+                                <a class="nav-link" href="contact us.html">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <img src="images/Logo.png" alt="Логотип">
+        
+            <div class="search_wrapper">
+                <input type="text" class="search_input" placeholder="Search...">
+            </div>
+        </header>
+
+        <section class="tomaro_one_content">
+            <div class="main-container">
+                <div class="tomato-info">
+                    <div class="back">
+                        <a href="Tomato all.html">
+                            <img src="images/Arrow.png" alt="">
+                            Return to all tomatoes
+                        </a>
+                    </div>
+
+                    <div class="tomaro_one_info">
+                        <h2>
+                            <span class="black">{{ product.title }}</span><br>
+                            <span class="green">{{ product.short_text }}</span>
+                        </h2>
+                    </div>
+
+                    <div class="quality">
+                        <img src="images/tomatoone2.svg" alt="">
+                        <h2>Детальна інформація про {{ product.title }}</h2>
+                    </div>
+                </div>
+
+                <div class="tomatiki">
+                    <img v-if="product.image" :src="'images/' + product.image" :alt="product.title">
+                </div>
+            </div>
+        </section>
+        <section class="tomaro_one_content characteristics-details">
+            <div class="main-container">
+                <div class="tomato-info">
+                    <div class="characteristics-container">
+                        <div class="characteristics-columns">
+                            <!-- Левая колонка -->
+                            <div class="left-column">
+                                <div class="characteristics-section">
+                                    <p class="label">Plant</p>
+                                    <ul>
+                                        <li v-for="plant in product.characteristics.plant">{{ plant }}</li>
+                                    </ul>
+                                </div>
+                    
+                                <div class="characteristics-section">
+                                    <p class="label">Fruit</p>
+                                    <ul>
+                                        <li v-for="fruit in product.characteristics.fruit">{{ fruit }}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                    
+                            <!-- Правая колонка -->
+                            <div class="right-column">
+                                <div class="characteristics-section">
+                                    <p class="label">Cycle</p>
+                                    <ul>
+                                        <li v-for="cycle in product.characteristics.cycle">{{ cycle }}</li>
+                                    </ul>
+                                </div>
+                    
+                                <div class="characteristics-section color">
+                                    <p class="label">Color</p>
+                                    <ul>
+                                        <li>{{ product.characteristics.color }}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="download-pdf">
+                <a href="#" @click.prevent="addToCart(product.id)" v-if="!btnVisible" class="pdf">Add to cart</a>
+                <a href="contact us.html" v-if="btnVisible" class="pdf">Go to cart</a>
+            </div>
+            
+        </section>
+         
+    </div>
+
+    <footer>
+        <div class="top">
+            <div class="a_wrapper">
+                <a href="#">PROFILE</a>
+                <a href="#">MANAGEMENT</a>
+                <a href="#">PRODUCTS</a>
+                <a href="#">R & D</a>
+                <a href="#">LINKS</a>
+                <a href="#">SITEMAP</a>
+                <a href="#">CONTACT</a>
+            </div>
+        </div>
+        <div class="bottom"></div>
+        <p>AGRIDERA SEEDS & AGRICULTURE LTD. © 2020</p>
+    </footer>
+</body>
+</html>
